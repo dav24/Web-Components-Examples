@@ -10,8 +10,7 @@
                     createdCallback: {
                         value: function() {
                             var root = this.createShadowRoot();
-                            var content = document.querySelector('link[rel="import"]').import; // TODO can be improve ?
-                            var template = content.querySelector('#myTemplate');
+                            var template = this.shadowRoot.querySelector('#myTemplate');
                             var clone = document.importNode(template.content, true);
                             clone.querySelector('.name').innerHTML = this.getAttribute('value');
                             root.appendChild(clone);
