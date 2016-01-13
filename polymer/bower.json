@@ -1,0 +1,20 @@
+{
+  "name": "PolymerTest",
+  "version": "0.0.0",
+  "authors": [
+    "David Desré <david.desre@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "moment": "~2.10.6"
+  }
+}
